@@ -1,0 +1,63 @@
+body{
+font-family: "Arial", cursive;
+background-image: url("/static/images/g.png");
+font-size: 20px;
+}
+header{
+width: 100%;
+background-color: black;
+color: white;
+padding: 15px;
+margin: 0px;
+position: fixed;
+font-size: 17px;
+top:0;
+left:0;
+width:100% 100%;
+}
+a{
+text-decoration: none;
+color: white;
+margin: 15px;
+}
+header a:hover{
+color: #e68327;
+}
+.zagolovok{
+font-size: 30px;
+}
+.header{
+color: white;
+background-image: url("/static/images/hutao.jpg");
+background-size: cover;
+padding: 300px 800px 300px 100px;
+}
+.header2{
+font-size:40px;
+}
+.header3{
+font-size:30px;
+}
+img{
+display: inline-block;
+}
+
+
+table {
+    margin: 15px auto; /* Сверху и снизу таблицы отступы 15 пикселей, auto - центрирует таблицу */
+    font-size: 16px;
+    font-family: sans-serif; /* Подключаем красивый шрифт */
+    width: 90%; /* Ширина таблицы относительно всей страницы */
+    border: double 5px #2c3e50; /* Создаем двойную границу с толщиной 5 пикселей */
+}
+
+table th, table td {
+    padding: 12px 15px;
+}
+
+}
+table tr:hover{ /* При наведении на строчку, меняем цвет фона и текста */
+    background-color: #95a5a6;
+    color: white;
+}
+
